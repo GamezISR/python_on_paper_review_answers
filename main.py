@@ -71,6 +71,41 @@ else:
   print(number_3, " is the largest number")
 
 
+"""
+5
+
+Write an algorithm in  using a single loop to print 50 names that have been stored in an array called Names.
+
+"""
+
+names = [] #can add names here
+
+for i in names:
+  print(i)
+#or
+for i in range(len(names)):
+  print(names[i])
 
 
 
+
+"""
+6
+
+Write an algorithm to:
+Input a positive integer
+Use the value to set up how many other numbers are to be input
+Input these numbers
+Calculate and output the total and the average of these numbers
+
+"""
+
+how_many_number = int(input("How many numbers do you want? "))
+total = 0
+for i in range(how_many_number):
+  add = int(input("Enter a number: "))
+  total = total + add
+
+average = total / how_many_number
+print("This is the total: ", total)
+print("This is the average: ", average)
