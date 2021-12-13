@@ -109,3 +109,32 @@ for i in range(how_many_number):
 average = total / how_many_number
 print("This is the total: ", total)
 print("This is the average: ", average)
+
+
+"""
+7
+
+FizzBuzz
+
+The FizzBuzz challenge is a classic challenge that's used as an interview screening device for computer programmers. It's a very simple programming task but it's used to determine whether the job candidate can actually write code.
+
+Problem Statement
+You need to write a program that prints the numbers from 1 to 100 such that:
+
+If the number is a multiple of 3, you need to print "Fizz" instead of that number.
+If the number is a multiple of 5, you need to print "Buzz" instead of that number.
+If the number is a multiple of both 3 and 5, you need to print "FizzBuzz" instead of that number.
+
+
+"""
+
+for i in range(1,101):
+  if i % 5 == 0 and i % 3 == 0:
+    print("FizzBuzz")
+  elif i % 3 == 0:
+    print("Fizz")
+  elif i % 5 == 0:
+    print("Buzz")
+  else:
+    print(i)
+
